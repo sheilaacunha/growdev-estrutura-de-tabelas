@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://cdn.discordapp.com/attachments/1027406715886522408/1049823018685313096/favicon.png"
+        type="image/x-icon">
+    <title>Prática com Tabelas</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #FFF0F5;
+            width: 100vw;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            margin-top: 5%;
+        }
+
+        li {
+
+            list-style-type: none;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        nav {
+            text-align: center;
+            font-size: 26px;
+            margin-top: 25px;
+
+        }
+
+        table {
+            width: 400px;
+            height: 300px;
+            font-size: 26px;
+            margin: 20px;
+        }
+
+        .trOne {
+            text-align: left;
+        }
+
+        .trTwo {
+            text-align: center;
+        }
+
+        .trThree {
+            text-align: right;
+        }
+
+        tr,
+        td {
+            border-radius: 10px;
+        }
+
+        td:nth-child(odd) {
+            background-color: #0a7c7c;
+        }
+
+        td {
+            background-color: #96D4D4;
+            padding: 10px;
+        }
+
+        td:hover {
+            outline: #000 solid 1px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Tabela simples</a>
+                </li>
+                <li>
+                    <a href="./layoutdesite.html">Layout de Site</a>
+                </li>
+                <li>
+                    <a href="./estrutura.html">Estrutura</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <!--tabela 01-->
+            <tr class="trOne">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="trTwo">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr class="trThree">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <table>
+            <!--tabela 02-->
+            <tr class="trOne">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="trTwo">
+                <td colspan="3">4</td>
+            </tr>
+            <tr class="trOne">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <table>
+            <!--tabela 03-->
+            <tr class="trOne">
+                <td>1</td>
+                <td>2</td>
+                <td class="trTwo" rowspan="3">3</td>
+            </tr>
+            <tr class="trTwo">
+                <td colspan="2">4</td>
+            </tr>
+            <tr class="trOne">
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>
