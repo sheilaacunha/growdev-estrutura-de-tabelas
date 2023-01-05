@@ -78,4 +78,56 @@
         .trC {
             text-align: right;
         }
+
+ .menu {
+            width: 15%;
+            text-align: center;
+        }
+
+        .link :is(a, h3) {
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            height: 30%;
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .link a {
+            font-size: 16px;
+        }
+           .link a:hover {
+            text-decoration: overline;
+
+        }
+
+        .tableC :is(h2, td) {
+            padding: 15px;
+        }
+
+        .tableC td {
+            text-align: center;
+        }
+
+        .link :is(a, h3, ),
+        thead td,
+        tfoot {
+            background-color: #e5e5e5;
+        }
+
+        .tableC p {
+            text-align: justify;
+            padding: 0 20px 5px 20px;
+        }
+
+        .footerTableC {
+            margin: 20px;
+            text-align: center;
+        }       
+        .tableC a {
+            color: black;
+            text-decoration: none;
+        }
         
