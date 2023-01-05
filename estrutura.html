@@ -8,67 +8,8 @@
     <link rel="shortcut icon"
         href="https://cdn.discordapp.com/attachments/1027406715886522408/1049823018685313096/favicon.png"
         type="image/x-icon">
-
+    <link rel="stylesheet" href="style.css">
     <title>Prática com Tabelas</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0px;
-            padding: 0px;
-        }
-
-        body {
-            background-color: #FFF0F5;
-            width: 100vw;
-        }
-
-        main {
-            display: flex;
-            justify-content: center;
-            margin-top: 5%;
-        }
-
-        li {
-
-            list-style-type: none;
-        }
-
-        a {
-            color: black;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        nav {
-            text-align: center;
-            font-size: 26px;
-            margin-top: 25px;
-        }
-
-        table {
-            width: 400px;
-            height: 400px;
-            margin: 10px;
-        }
-
-        tr,
-        td {
-            border-radius: 10px;
-            background-color: #96D4D4;
-        }
-
-        td:hover {
-            outline: #0a7c7c solid 1px;
-            cursor: pointer;
-        }
-
-        .tdColor {
-            background-color: aqua;
-        }
-    </style>
 </head>
 
 <body>
@@ -82,7 +23,7 @@
         </nav>
     </header>
     <main>
-        <table>
+        <table class="tableA">
             <tr>
                 <td colspan="3" class="tdColor"></td>
             </tr>
@@ -97,7 +38,7 @@
                 <td></td>
             </tr>
         </table>
-        <table>
+        <table class="tableA">
             <tr>
                 <td rowspan="3" class="tdColor"></td>
                 <td></td>
@@ -112,7 +53,7 @@
                 <td></td>
             </tr>
         </table>
-        <table>
+        <table class="tableA">
             <tr>
                 <td colspan="5" class="tdColor"></td>
             </tr>

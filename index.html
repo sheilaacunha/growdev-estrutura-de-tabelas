@@ -8,83 +8,11 @@
     <link rel="shortcut icon"
         href="https://cdn.discordapp.com/attachments/1027406715886522408/1049823018685313096/favicon.png"
         type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Prática com Tabelas</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0px;
-            padding: 0px;
-        }
-
-        body {
-            background-color: #FFF0F5;
-            width: 100vw;
-        }
-
-        main {
-            display: flex;
-            justify-content: center;
-            margin-top: 5%;
-        }
-
-        a {
-            color: black;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        nav {
-            text-align: center;
-            font-size: 26px;
-            margin-top: 25px;
-        }
-
-        table {
-            width: 400px;
-            height: 300px;
-            font-size: 26px;
-            margin: 20px;
-        }
-
-        .trOne {
-            text-align: left;
-        }
-
-        .trTwo {
-            text-align: center;
-        }
-
-        .trThree {
-            text-align: right;
-        }
-
-        tr,
-        td {
-            border-radius: 10px;
-        }
-
-        td:nth-child(odd) {
-            background-color: #0a7c7c;
-        }
-
-        td {
-            background-color: #96D4D4;
-            padding: 10px;
-        }
-
-        td:hover {
-            outline: #000 solid 1px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 
 <body>
-
     <header>
         <nav>
             <ul>
@@ -102,51 +30,49 @@
     </header>
 
     <main>
-        <table>
-            <!--tabela 01-->
-            <tr class="trOne">
+        <table class="tableB">
+            <tr class="trA">
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
             </tr>
-            <tr class="trTwo">
+            <tr class="trB">
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
             </tr>
-            <tr class="trThree">
+            <tr class="trC">
                 <td>7</td>
                 <td>8</td>
                 <td>9</td>
             </tr>
         </table>
-        <table>
-            <!--tabela 02-->
-            <tr class="trOne">
+        <table class="tableB">
+            <tr class="trA">
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
             </tr>
-            <tr class="trTwo">
+            <tr class="trB">
                 <td colspan="3">4</td>
             </tr>
-            <tr class="trOne">
+            <tr class="trA">
                 <td>7</td>
                 <td>8</td>
                 <td>9</td>
             </tr>
         </table>
-        <table>
-            <!--tabela 03-->
-            <tr class="trOne">
+
+        <table class="tableB">
+            <tr class="trA">
                 <td>1</td>
                 <td>2</td>
-                <td class="trTwo" rowspan="3">3</td>
+                <td class="trB" rowspan="3">3</td>
             </tr>
-            <tr class="trTwo">
+            <tr class="trB">
                 <td colspan="2">4</td>
             </tr>
-            <tr class="trOne">
+            <tr class="trA">
                 <td>5</td>
                 <td>6</td>
             </tr>
