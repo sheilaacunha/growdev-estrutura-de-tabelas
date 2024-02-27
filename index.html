@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://cdn.discordapp.com/attachments/1027406715886522408/1049823018685313096/favicon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Prática com Tabelas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Tabela simples</a>
+                </li>
+                <li>
+                    <a href="./layoutdesite.html">Layout de Site</a>
+                </li>
+                <li>
+                    <a href="./estrutura.html">Estrutura</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table class="tableB">
+            <tr class="trA">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="trB">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr class="trC">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <table class="tableB">
+            <tr class="trA">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="trB">
+                <td colspan="3">4</td>
+            </tr>
+            <tr class="trA">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+
+        <table class="tableB">
+            <tr class="trA">
+                <td>1</td>
+                <td>2</td>
+                <td class="trB" rowspan="3">3</td>
+            </tr>
+            <tr class="trB">
+                <td colspan="2">4</td>
+            </tr>
+            <tr class="trA">
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+    * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #FFF0F5;
+            width: 100vw;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+          
+        }
+        nav {
+            margin-top: 25px;
+        }
+        li {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 26px;
+            
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        /* estrutura de tabelas */
+          .tableA {
+            width: 400px;
+            height: 400px;
+            margin: 10px;
+        }
+        .tableA :is(tr,td){
+              border-radius: 10px;
+            background-color: #96D4D4;
+        }
+        .tableA td:hover, .tableB td:hover{
+             outline: #000 solid 1px;
+            cursor: pointer;
+        }
+        .tdColor {
+            background-color: aqua !important;
+        }
+        /* tabela simples */
+         .tableB {
+            width: 400px;
+            height: 300px;
+            font-size: 26px;
+            margin: 20px;
+        }
+         .tableB :is(tr,td){
+              border-radius: 10px;
+           
+        }
+        .tableB td:nth-child(odd) {
+            background-color: #0a7c7c;
+        }
+        .tableB  td {
+            background-color: #96D4D4;
+            padding: 10px;
+        }
+         .trA {
+            text-align: left;
+        }
+
+        .trB {
+            text-align: center;
+        }
+
+        .trC {
+            text-align: right;
+        }
+        /* layout de site */
+
+ .menu {
+            width: 15%;
+            text-align: center;
+        }
+
+        .link :is(a, h3) {
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            height: 30%;
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .link a {
+            font-size: 16px;
+        }
+           .link a:hover {
+            text-decoration: overline;
+
+        }
+
+        .tableC :is(h2, td) {
+            padding: 15px;
+        }
+
+        .tableC td {
+            text-align: center;
+        }
+
+        .link :is(a, h3, ),
+        thead td,
+        tfoot {
+            background-color: #e5e5e5;
+        }
+
+        .tableC p {
+            text-align: justify;
+            padding: 0 20px 5px 20px;
+        }
+
+        .footerTableC {
+            margin: 20px;
+            text-align: center;
+        }       
+        .tableC a {
+            color: black;
+            text-decoration: none;
+        }
+        

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://cdn.discordapp.com/attachments/1027406715886522408/1049823018685313096/favicon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Prática com Tabelas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="navA" href="./index.html">Tabela simples</a> </li>
+                <li><a class="navA" href="./layoutdesite.html">Layout de Site</a> </li>
+                <li><a class="navA" href="./estrutura.html">Estrutura</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <table class="tableC">
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        <h1>Estrutura de Tabela para Site</h1>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="menu">
+                        <!--menu-->
+                        <div class="link">
+                            <h3>Tabelas no HTML</h3>
+                            <a href="#">Borders</a>
+                            <a href="#">Sizes</a>
+                            <a href="#">Headers</a>
+                            <a href="#">Padding e Spacing</a>
+                            <a href="#">colspan e Rowspan</a>
+                            <a href="#">Styling</a>
+                            <a href="#">Colgroup</a>
+                        </div>
+                    </td>
+                    <td>
+                        <!--conteudo-->
+                        <h2>Resumo </h2>
+                        <p> As tabelas HTML permitem que os desenvolvedores web organizem dados em linhas e colunas.Uma
+                            tabela em HTML consiste em células de tabela dentro de linhas e colunas.Cada célula da
+                            tabela é definida por uma tag &#60;td&#62; e &#60;/td&#62;. td significa dados de
+                            tabela.Tudo entre &#60;td&#62; e &#60;/td&#62; é o conteúdo da célula da tabela.</p>
+                        <p> <strong>Border -></strong> Ao adicionar uma borda a uma tabela, você também adiciona bordas
+                            ao redor de cada célula da tabela:Para adicionar uma borda, use a propriedade CSS
+                            <em>border</em> nos elementos <em>table, th e td</em>.
+                        </p>
+                        <p><strong>Size -></strong>As tabelas HTML podem ter tamanhos diferentes para cada coluna, linha
+                            ou toda a tabela.Use o atributo de <em>style</em> com as propriedades de <em>width</em> ou
+                            <em>height</em> para especificar o tamanho de uma tabela, linha ou coluna.
+                        </p>
+                        <p><strong>Headers -></strong>As tabelas HTML podem ter cabeçalhos para cada coluna ou linha, ou
+                            para muitas colunas/linhas.Os cabeçalhos das tabelas são definidos com elementos <em>th</em>
+                            , cada <em>th</em> elemento representa uma célula da tabela.
+                        </p>
+                        <p><strong>Padding e Spacing -></strong>As tabelas HTML podem ajustar o preenchimento dentro das
+                            células e também o espaço entre as células.O preenchimento da célula é o espaço entre as
+                            bordas da célula e o conteúdo da célula.Por padrão, o preenchimento é definido como 0.Para
+                            adicionar preenchimento nas células da tabela, use a propriedade de <em>padding</em>.
+                        </p>
+
+                        <p><strong>colspan e Rowspan-></strong>As tabelas HTML podem ter células que se estendem por
+                            várias linhas e/ou colunas.
+                            Para fazer uma célula se estender por várias colunas, use o atributo <em>colspan</em>.
+                            Para fazer uma célula se estender por várias linhas, use o atributo <em>rowspan.</em>
+                        </p>
+                        <p><strong>Styling-></strong>Use CSS para melhorar a aparência de suas tabelas.
+                        </p>
+                        <p><strong>Colgroup-></strong>O elemento &#60;colgroup&#62; é usado para estilizar colunas
+                            específicas de uma tabela. Se você deseja estilizar as duas primeiras colunas de uma tabela,
+                            use os elementos &#60;colgroup&#62; e &#60;col&#62;. O elemento &#60;colgroup&#62; deve ser
+                            usado como um contêiner para as especificações da coluna.Cada grupo é especificado com um
+                            elemento &#60;col&#62;.O atributo <em>span</em> especifica quantas colunas obtém o estilo.O
+                            atributo <em>style</em> especifica o estilo a ser fornecido às colunas.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <a href="http://www.w3schools.com/" target="_blank">Para mais estudos acesse ©copyright
+                            w3schools.com</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer class="footerTableC">
+        <small> <strong> ATIVIDADES DE TABELAS - SEMANTICAS - HTML5 - GROWDEV 2024</strong></small>
+    </footer>
+
+</body>
+
+</html>
